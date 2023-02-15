@@ -14,6 +14,7 @@ while(response != "QUIT") {
 }
 */
 
+
 /*
 const guessNumber = Math.floor(Math.random() * 10) + 1;
 let guessRight = false;
@@ -30,7 +31,7 @@ while (!guessRight) {
 }
 */
 
-/*
+
 let response = '';
 let names = [];
 
@@ -43,14 +44,14 @@ while(response != 'QUIT') {
         console.log('the names are: ' + names);
     }
 }
-*/
 
-let response = '';
 
-while(response != 'QUIT') {
-    let input = prompt('Hello')
-    response = input.toUpperCase();
-    if(response == 'HELLO' || 'HI' || 'HOWDY') {
-        prompt('How are you today?');
-    } 
-}
+// let response = '';
+
+// while(response != 'QUIT') {
+//     let input = prompt('Hello')
+//     response = input.toUpperCase();
+//     if(response == 'HELLO' || 'HI' || 'HOWDY') {
+//         prompt('How are you today?');
+//     } 
+// }
